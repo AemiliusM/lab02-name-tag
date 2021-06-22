@@ -1,0 +1,47 @@
+.name-tag {
+    height: 200px;
+    width: 300px;
+    display: grid;
+    grid-template-rows: 1fr 1fr .1fr;
+    box-shadow: 2px 2px 10px 2px slategray;
+    border-radius: 20px;
+    margin: 120px;
+}
+
+.top { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.middle {
+    font-family: cursive;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.bottom {
+    height: 30px;
+    background-color: red;
+    border-radius: 0px 0px 20px 20px;
+}
+
+h1,h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+.footer {
+    height: 15px;
+    width: 300px;
+    background-color: lightblue;
+
+}
