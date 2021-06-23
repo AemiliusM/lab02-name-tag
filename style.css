@@ -5,7 +5,7 @@
     grid-template-rows: 1fr 1fr .1fr;
     box-shadow: 2px 2px 10px 2px slategray;
     border-radius: 20px;
-    margin: 120px;
+    margin: 50px 180px 100px;
 }
 
 .top { 
@@ -24,6 +24,7 @@
     justify-content: center;
     align-items: center;
     font-size: 2rem;
+    background-color: ivory;
 }
 
 .bottom {
@@ -40,8 +41,27 @@ h1,h2 {
     margin: 0;
 }
 .footer {
-    height: 15px;
-    width: 300px;
-    background-color: lightblue;
+    height: 30px;
+    width: 100%;
+    background-color: rgb(62, 79, 85);
 
+}
+.header {
+    height: 40px;
+    width: 100%;
+    background-color: rgb(62, 79, 85);
+}
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: goldenrod;
+}
+.body {background-color: rgb(140, 195, 221);}
+
+.input1 {
+    width: 150px;
+    display:;
+    margin: 50px 0px 10px 65px
+    
+    ;
 }
